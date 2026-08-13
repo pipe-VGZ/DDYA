@@ -1,3 +1,5 @@
+nombre_estudiante: Santiago Camacho , Daniel Chacon , Felipe Gomez , Andres Vargas 
+
 **Enunciado **
 
 Una tienda necesita organizar los precios de sus productos. La cantidad de productos puede variar, por lo que el usuario deberá indicar cuántos precios desea registrar.
@@ -49,13 +51,12 @@ Tipo de algoritmo
 -	Algoritmo de orden por el uso de comparaciones en cada arreglo: insertion sort 
 Tipo de implementación
 -	Iterativa – Se utiliza el for para recorrer los precios y el while para situar los elementos hasta que estos se encuentren en la posición correcta de la lista, corresponde al pseudocodigo de insertion sort.
-
-
 Invariantes 
 -	Invariante: En cada iteración del algoritmo la parte izquierda de la lista se encuentra ordenada según el orden requerido y contiene los elementos originales. En orden ascendente se desplazan elementos mayores que la clave, mientras que en orden descendente se desplazan los menores y así la clave se inserta en la posición correspondiente.
 Diagrama de flujo
+ - imagen agregada a la semana 2 en github
 Tabla de T(n)
- 
+ - imagen agregada a la semana 2 en github
 Mejor caso
 -	El mejor caso es cuando la lista ya se encuentra en orden, ya sea en orden ascendente o descendente
 Peor caso
