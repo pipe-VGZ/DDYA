@@ -1,2 +1,44 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+**Enunciado **
+
+Una tienda necesita organizar los precios de sus productos. La cantidad de productos puede variar, por lo que el usuario deberá indicar cuántos precios desea registrar.
+
+**Especificación**
+
+Entrada: El programa recibe primero la cantidad de productos que se van a registrar. Después, el usuario debe ingresar el precio de cada producto y seleccionar el tipo de ordenamiento que desea ver
+
+Salida: El programa debe mostrar en pantalla la lista de precios organizada según la opción elegida por el usuario. Si se selecciona el orden ascendente, los precios aparecerán del menor al mayor. Si se selecciona el orden descendente, los precios se mostrarán del mayor al menor, permitiendo identificar fácilmente los productos más baratos o los más caros
+
+Restricciones: La cantidad de productos debe ser un número entero que cero y los precios ingresados deben ser valores válidos mayores o iguales a cero Además, el usuario debe seleccionar una opción de ordenamiento válida, ya sea ascendente o descendente
+
+Requerimientos funcionales 
+-	El programa debe solicitar al usuario la cantidad de n productos que sea registrar
+-	El programa debe solicitar el precio de cada uno de los n productos
+-	El programa debe permitir escoger entre orden ascendente y descendente
+-	El programa debe mostrar los precios dependiendo a la opción escogida
+-	El programa debe tener los mismos precios, lo único que cambia es la posición
+Requerimientos no funcionales 
+-	El resultado debe quedar correctamente ordenado según la opción escogida
+-	El programa debe indicar claramente que datos debe ingresar el usuario 
+-	El programa debe funcionar para una cantidad variable de productos
+Historias de usuarios 
+  HUO1
+    -	Como – usuario de la tienda
+      Quiero – ingresar cantidad de productos y sus precios
+      Para – poder organizarlos
+      Criterios de aceptación
+      •	El programa solicita n
+      •	El usuario ingresa los n precios
+  HUO2
+    -	Como – usuario de la tienda
+      Quiero – ordenar los precios de menor a mayor
+      Para – conocer primero cuales son los productos mas económicos
+      Criterios de aceptación
+      •	El usuario quiere en orden ascendente
+      •	Los precios aparecen de menor a mayor
+  HUO3
+    -	Como – usuario de la tienda
+      Quiero – ordenar los precios de mayor a menor
+      Para - conocer primero los productos mas caros 
+      Criterios de aceptación
+      •	El usuario quiere el orden ascendente 
+      •	Los precios aparecen de mayor a menor
