@@ -1,6 +1,11 @@
 **Enunciado **
+
 Una tienda necesita organizar los precios de sus productos. La cantidad de productos puede variar, por lo que el usuario deberá indicar cuántos precios desea registrar.
+
 **Especificación**
+
 Entrada: El programa recibe primero la cantidad de productos que se van a registrar. Después, el usuario debe ingresar el precio de cada producto y seleccionar el tipo de ordenamiento que desea ver
+
 Salida: El programa debe mostrar en pantalla la lista de precios organizada según la opción elegida por el usuario. Si se selecciona el orden ascendente, los precios aparecerán del menor al mayor. Si se selecciona el orden descendente, los precios se mostrarán del mayor al menor, permitiendo identificar fácilmente los productos más baratos o los más caros
+
 Restricciones: La cantidad de productos debe ser un número entero que cero y los precios ingresados deben ser valores válidos mayores o iguales a cero Además, el usuario debe seleccionar una opción de ordenamiento válida, ya sea ascendente o descendente
